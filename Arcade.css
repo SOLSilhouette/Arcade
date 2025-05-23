@@ -27,6 +27,7 @@ div {
 fieldset {
     border: none;
     border-top: 2px solid black;
+    width: 100%;
 }
 legend {
     color: black;
@@ -58,11 +59,11 @@ label {
 
 #intro_imageDiv {
     text-align: center;
-    margin: 170px auto;
+    margin: 190px auto;
 }
  
 #loadBar {
-    margin: -130px auto;
+    margin: -160px auto;
     border: 2px solid black;
     border-radius: 100px;
     height: 10px;
