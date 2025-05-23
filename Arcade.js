@@ -830,10 +830,7 @@ document.querySelector("#check").addEventListener("click", function() {
         document.querySelector("#cat_salads").style.display = "none";
         document.querySelector("#cat_fries").style.display = "none";
         document.querySelector("#back_checkDiv").style.display = "none";
-        //document.querySelector("#head").style.display = "none";
         document.querySelector("#form").style.display = "block";
-        //document.body.style.backgroundImage = "none";
-        //document.body.style.backgroundColor = "black";
         document.querySelector("#items").innerHTML += yourItems.join("<br><br>");
         document.querySelector("#input_items").value = yourItems.join("\n\n");
         document.querySelector("#total_cost").value = "GH₵" + total_cost.toFixed(2);

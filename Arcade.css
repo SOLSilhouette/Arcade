@@ -16,6 +16,10 @@ body {
     cursor: default;
 }
 
+div {
+    text-align: center;
+}
+
 #form {
     display: none;
     margin: 0 auto;
@@ -54,35 +58,22 @@ label {
 
 #intro_imageDiv {
     text-align: center;
-    margin: 130px auto;
+    margin: 170px auto;
 }
  
 #loadBar {
-    margin: -50px auto;
+    margin: -130px auto;
     border: 2px solid black;
     border-radius: 100px;
-    height: 15px;
+    height: 10px;
     width: 180px;
 }
 #load {
     background-color: #800020;
     border-radius: 100px;
-    height: 15px;
+    height: 10px;
     width: 0px;
 }
-
-/*#head {
-    padding: 5px;
-    text-align: center;
-    font-family: 'Bruno Ace SC', cursive;
-    letter-spacing: 3px;
-    color: black;
-    text-shadow: 0 0 2px white;
-    border: 2px solid white;
-    border-radius: 100px;
-    background-color: black;
-    padding: 10px 0;
-}*/
 
 #head_imageDiv {
     text-align: center;
