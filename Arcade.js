@@ -8,7 +8,7 @@ var total_cost = 0;
 document.body.addEventListener("load", setTimeout(function loadBar() {
     document.querySelector("#load").style.transition = "width 2s linear";
     document.querySelector("#load").style.width = "0px";
-    document.querySelector("#load").style.width = "200px";
+    document.querySelector("#load").style.width = "180px";
 
     document.body.addEventListener("load", setTimeout(function loadOver() {
         document.querySelector("#intro_imageDiv").style.display = "none";
