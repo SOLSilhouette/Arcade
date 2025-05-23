@@ -1,0 +1,258 @@
+
+/* Prince SK ['Silhouette'] DID! */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background-image: none;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    font-family: fantasy;
+    cursor: default;
+}
+
+#form {
+    display: none;
+    margin: 0 auto;
+}
+fieldset {
+    border: none;
+    border-top: 2px solid black;
+}
+legend {
+    color: black;
+    font-family: courier;
+}
+.form_input {
+    background-color: lightgrey;
+    padding: 6px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+#items {
+    color: black;
+    font-family: courier;
+}
+label {
+    color: black;
+    text-shadow: 0 0 2px white;
+    letter-spacing: 3px;
+}
+#sub {
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#intro_imageDiv {
+    text-align: center;
+    margin: 130px auto;
+}
+ 
+#loadBar {
+    margin: -50px auto;
+    border: 2px solid black;
+    border-radius: 100px;
+    height: 20px;
+    width: 200px;
+}
+#load {
+    background-color: #800020;
+    border-radius: 100px;
+    height: 20px;
+    width: 0px;
+}
+
+/*#head {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+    letter-spacing: 3px;
+    color: black;
+    text-shadow: 0 0 2px white;
+    border: 2px solid white;
+    border-radius: 100px;
+    background-color: black;
+    padding: 10px 0;
+}*/
+
+#head_imageDiv {
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+    border: 2px solid black;
+    border-radius: 100px;
+    display: none;
+}
+
+#main, #cat_loadedFries, #cat_salads, #cat_fries, #form {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-shadow: 0 0 2px black;
+    text-align: center;
+    display: none;
+}
+#main::before, #cat_loadedFries::before, #cat_salads::before, #cat_fries::before, #form::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("Arcade\ Mascot.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(10px);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+#cat_loadedFries, #cat_salads, #cat_fries {
+    display: none;
+}
+
+.cat_head {
+    font-family: 'Permanent Marker';
+    padding: 0 10px;
+}
+
+#back_checkDiv {
+    text-align: center;
+    display: none;
+}
+#check, #back {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+#check {
+    border-radius: 0 20px 20px 0;
+}
+#back {
+    border-radius: 20px 0 0 20px;
+}
+#check:active, #back:active, #sub:active {
+    transform: scale(0.96);
+}
+
+figure {
+    display: inline-block;
+    cursor: pointer;
+}
+
+figcaption {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.button_otherPrices {
+    border-radius: 10px 0 0 10px;
+}
+
+.item_number {
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 0 10px 10px 0;
+    padding: 3px 0;
+    width: 90px;
+    display: none;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 0 10px 10px 0;
+    padding: 3px 10px;
+    display: none;
+    cursor: pointer;
+}
+button:hover, #sub:hover {
+    color: white;
+    background-color: black;
+}
+button:active {
+    transform: scale(0.96);
+}
+
+.item_img {
+    width: 270px;
+    height: 170px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow: 0 0 2px black;
+}
+.item_img:hover {
+    transform: scale(1.04);
+    transition: 0.25s;
+}
+.item_img:active {
+    transform: scale(0.98);
+    transition: 0s;
+}
+
+#cat1 {
+    background-image: url("Beef.jpg");
+}
+#cat2 {
+    background-image: url("Chicken\ Salad.jpg");
+}
+#cat3 {
+    background-image: url("Fries.jpg");
+}
+
+#loaded1 {
+    background-image: url("Ham.jpg");
+}
+#loaded2 {
+    background-image: url("Beef.jpg");
+}
+#loaded3 {
+    background-image: url("Chicken.jpg");
+}
+#loaded4 {
+    background-image: url("Full\ House.jpg");
+}
+#loaded5 {
+    background-image: url("Sausage.jpg");
+}
+
+#salad1 {
+    background-image: url("Chef\'s\ Salad.jpg");
+}
+#salad2 {
+    background-image: url("Chicken\ Salad.jpg");
+}
+#salad3 {
+    background-image: url("Ghana-Man\ Salad.jpg");
+}
+#salad4 {
+    background-image: url("Pittsburgh\ Salad.jpg");
+}
+#salad5 {
+    background-image: url("Veggie\ Salad.jpg");
+}
+
+#fries1 {
+    background-image: url("Fries.jpg");
+}
