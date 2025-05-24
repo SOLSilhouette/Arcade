@@ -21,7 +21,6 @@ body {
     margin: 0 auto;
 }
 fieldset {
-    border: none;
     border-top: 2px solid black;
     max-width: 100%;
 }
