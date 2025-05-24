@@ -21,7 +21,8 @@ body {
     margin: 0 auto;
 }
 fieldset {
-    border-top: 2px solid black;
+    border: 2px solid black;
+    border-radius: 10px;
     max-width: 100%;
 }
 legend {
@@ -82,7 +83,6 @@ label {
 
 #main, #cat_loadedFries, #cat_salads, #cat_fries, #form {
     position: relative;
-    border: 2px solid black;
     border-radius: 10px;
     margin: 50px auto;
     box-shadow: 0 0 2px black;
