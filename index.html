@@ -47,7 +47,7 @@
     </div>
 
     <div id="cat_loadedFries">
-        <fieldset align="center">
+        <fieldset>
             <legend class="cat_head"><h2>LOADED FRIES</h2></legend>
             <figure id="loaded1_panel">
                 <div class="item_img" id="loaded1"></div>
@@ -98,7 +98,7 @@
 
 
     <div id="cat_salads">
-        <fieldset align="center">
+        <fieldset>
             <legend class="cat_head"><h2>SALADS</h2></legend>
             <figure id="salad1_panel">
                 <div class="item_img" id="salad1"></div>
@@ -149,7 +149,7 @@
 
 
     <div id="cat_fries">
-        <fieldset align="center">
+        <fieldset>
             <legend class="cat_head"><h2>FRIES</h2></legend>
             <figure id="fries1_panel">
                 <div class="item_img" id="fries1"></div>
@@ -174,7 +174,7 @@
             <form id="myform" align="center" action="" method="post" target="_blank">
 
                 <table align="center" border="0">
-                    <tr>
+                    <tr align="center">
                         <td>
                             <table cellpadding="7px">
                                  <input class="form_input" id="input_items" type="hidden" name="Your Item List">
@@ -182,31 +182,31 @@
                                 <tr>
                                     <td align="left"><label for="total_cost">Total Cost:</label></td>
             
-                                    <td><input class="form_input" id="total_cost" type="text" name="Total Cost" disabled></td>
+                                    <td align="right"><input class="form_input" id="total_cost" type="text" name="Total Cost" disabled></td>
                                 </tr>
                 
                                 <tr>
                                     <td align="left"><label for="name">Name:</label></td>
                     
-                                    <td><input class="form_input" id="name" type="text" placeholder="Enter your name" name="Name" required></td>
+                                    <td align="right"><input class="form_input" id="name" type="text" placeholder="Enter your name" name="Name" required></td>
                                 </tr>
                     
                                 <tr>
                                     <td align="left"><label for="phone">Phone Number:</label></td>
                     
-                                    <td><input class="form_input" id="phone" type="tel" placeholder="Enter your phone number" name="Phone Number" maxlength="10" minlength="10" required></td>
+                                    <td align="right"><input class="form_input" id="phone" type="tel" placeholder="Enter your phone number" name="Phone Number" maxlength="10" minlength="10" required></td>
                                 </tr>
                     
                                 <tr>
                                     <td align="left"><label for="loc">Location:</label></td>
                     
-                                    <td><input class="form_input" id="loc" type="text" placeholder="Enter a location for delivery" name="Delivery Location" required></td>
+                                    <td align="right"><input class="form_input" id="loc" type="text" placeholder="Enter a location for delivery" name="Delivery Location" required></td>
                                 </tr>
                     
                                 <tr>
                                     <td align="left"><label for="mail">E-mail:</label></td>
                     
-                                    <td><input class="form_input" id="mail" type="email" placeholder="Enter your email" name="Email" required></td>
+                                    <td align="right"><input class="form_input" id="mail" type="email" placeholder="Enter your email" name="Email" required></td>
                                 </tr>
                     
                                 <tr>
@@ -221,7 +221,7 @@
                         </td>
                     </tr>
 
-                    <tr>
+                    <tr align="left">
                         <td><h4 id="items">You selected: <br></h4></td>
                     </tr>
                 </table>

@@ -16,10 +16,6 @@ body {
     cursor: default;
 }
 
-div {
-    text-align: center;
-}
-
 #form {
     display: none;
     margin: 0 auto;
@@ -27,7 +23,7 @@ div {
 fieldset {
     border: none;
     border-top: 2px solid black;
-    width: 100%;
+    max-width: 100%;
 }
 legend {
     color: black;
@@ -35,7 +31,7 @@ legend {
 }
 .form_input {
     background-color: lightgrey;
-    padding: 6px 20px;
+    padding: 6px 0;
     border: 2px solid black;
     border-radius: 5px;
     text-align: center;
@@ -47,7 +43,7 @@ legend {
 label {
     color: black;
     text-shadow: 0 0 2px white;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 #sub {
     margin-top: 20px;
@@ -59,11 +55,11 @@ label {
 
 #intro_imageDiv {
     text-align: center;
-    margin: 190px auto;
+    margin: 200px auto;
 }
  
 #loadBar {
-    margin: -160px auto;
+    margin: -170px auto;
     border: 2px solid black;
     border-radius: 100px;
     height: 10px;
@@ -106,7 +102,7 @@ label {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    filter: blur(10px);
+    filter: blur(6px);
     z-index: -1;
     border-radius: 10px;
 }
