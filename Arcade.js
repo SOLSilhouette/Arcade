@@ -86,7 +86,7 @@ document.querySelector("#loaded1_num").addEventListener("input", function() {
     }
 });
 
-var loaded1_priceList = ["GH₵60.00", "GH₵85.00", "GH₵130.00"];
+var loaded1_priceList = ["GH₵70.00", "GH₵90.00", "GH₵140.00"];
 var loaded1_sizeList = ["Ham | Small", "Ham | Medium", "Ham | Large"];
 var loaded1_priceSelect = 0;
 document.querySelector("#loaded1_otherPrices").addEventListener("click", function() {
