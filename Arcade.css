@@ -77,7 +77,8 @@ label {
     background-color: white;
     margin-top: 0;
     border: 2px solid black;
-    border-radius: 100px;
+    border-left: none;
+    border-right: none;
     display: none;
 }
 
@@ -101,7 +102,7 @@ label {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    filter: blur(6px);
+    filter: blur(8px);
     z-index: -1;
     border-radius: 10px;
 }
@@ -112,6 +113,11 @@ label {
 
 .cat_head {
     font-family: 'Permanent Marker';
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px 15px;
+    border-left: none;
+    border-right: none;
 }
 
 #back_checkDiv {
@@ -146,8 +152,10 @@ figure {
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: fantasy;
     text-align: left;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px white;
 }
 
 .button_otherPrices {
