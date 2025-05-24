@@ -26,7 +26,6 @@ fieldset {
     max-width: 100%;
 }
 legend {
-    text-align: center;
     color: black;
     font-family: courier;
 }
